@@ -1,16 +1,18 @@
 import React from 'react';
 import '../styles/GlobalStyles.css';
+import feature1 from '../assets/img/feature-1.png'
+import feature2 from '../assets/img/feature-2.png'
 
 const Features = () => {
   const features = [
     {
-      image: '/src/assets/img/feature-1.png',
+      image: feature1,
       title: 'Cover your everyday expenses',
       description: 'Inspiration comes in many ways and you like to save everything from. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       reversed: false
     },
     {
-      image: '/src/assets/img/feature-2.png',
+      image: feature2,
       title: 'We offer low fees that are transparent',
       description: 'Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back into the development of the asset through its charitable foundation.',
       reversed: true

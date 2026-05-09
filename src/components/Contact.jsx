@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/GlobalStyles.css';
+import contactImg from '../assets/img/contact.png'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -75,7 +76,7 @@ const Contact = () => {
 
           <figure className="contact-banner animate-slide-in-left">
             <img 
-              src="/src/assets/img/contact.png" 
+              src={contactImg} 
               alt="Contact us illustration" 
               className="contact-image"
             />

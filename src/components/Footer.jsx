@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/GlobalStyles.css';
+import footerLogo from '../assets/img/logo.png'
 
 const Footer = () => {
   const footerLinks = {
@@ -40,7 +41,7 @@ const Footer = () => {
             <div className="footer-brand">
               <a href="#home" className="logo">
                 <img 
-                  src="/src/assets/img/logo.png" 
+                  src={footerLogo}
                   alt="Funel logo" 
                   className="footer-logo"
                 />

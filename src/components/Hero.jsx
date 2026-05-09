@@ -34,14 +34,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="hero-shape">
-        <img 
-          src={heroBanner} 
-          alt="Background shape" 
-          className="shape-content"
-        />
-      </div>
-
+     
       <style jsx>{`
         .hero {
           position: relative;

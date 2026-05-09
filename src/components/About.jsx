@@ -3,6 +3,7 @@ import '../styles/GlobalStyles.css';
 import aboutBanner from '../assets/img/about-banner.png'
 import aboutBg from '../assets/img/about-bg.png'
 
+
 const About = () => {
   const services = [
     {
@@ -100,7 +101,7 @@ const About = () => {
           left: 0;
           right: 0;
           bottom: 0;
-           background: var(--about-bg) no-repeat center;
+          background: var(--about-bg) no-repeat center;
           background-size: cover;
           opacity: 0.05;
           z-index: 0;

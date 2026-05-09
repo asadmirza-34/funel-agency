@@ -22,7 +22,7 @@ const OurWork = () => {
       id: 2,
       title: 'Mobile Banking App',
       description: 'Secure and intuitive mobile banking application with biometric authentication and real-time transaction monitoring.',
-      image: '/src/assets/img/portfolio_project_4.jpg',
+      image: portfolioProject4,  // Mobile Banking App
       category: 'mobile',
       liveDemo: 'https://example.com/demo2',
       github: 'https://github.com/example/project2',
@@ -32,7 +32,7 @@ const OurWork = () => {
       id: 3,
       title: 'SaaS Dashboard',
       description: 'Comprehensive SaaS platform with multi-tenant architecture, advanced analytics, and automated reporting features.',
-      image: '/src/assets/img/portfolio_project_3.png',
+      image: portfolioProject3,  // SaaS Dashboard
       category: 'web',
       liveDemo: 'https://example.com/demo3',
       github: 'https://github.com/example/project3',

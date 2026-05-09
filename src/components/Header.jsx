@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/GlobalStyles.css';
+import logoImg from '../assets/img/logo.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +36,7 @@ const Header = () => {
       <div className="container">
         <a href="#home" className="logo" onClick={closeMenu}>
           <img 
-            src="/src/assets/img/logo.png" 
+            src={logoImg}
             alt="Funel logo" 
             className="logo-img"
           />
