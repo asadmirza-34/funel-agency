@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/GlobalStyles.css';
+import aboutBanner from '../assets/img/about-banner.png'
+import aboutBg from '../assets/img/about-bg.png'
 
 const About = () => {
   const services = [
@@ -19,9 +21,11 @@ const About = () => {
       description: 'Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back into the development of the asset through its charitable foundation.'
     }
   ];
-
+  const aboutStyle = {
+  '--about-bg': `url(${aboutBg})`
+};
   return (
-    <section className="about" id="about">
+    <section className="about" id="about" style={aboutStyle}>
       <div className="container">
         <div className="about-top">
           <h2 className="section-title animate-fade-in-up">
@@ -58,7 +62,7 @@ const About = () => {
           <div className="about-bottom-content">
             <figure className="about-bottom-banner animate-slide-in-left">
               <img 
-                src="/src/assets/img/about-banner.png" 
+                src={aboutBanner} 
                 alt="About us illustration" 
                 className="about-banner-img"
               />
@@ -80,7 +84,7 @@ const About = () => {
           </div>
         </div>
       </div>
-
+            
       <style jsx>{`
         .about {
           position: relative;
@@ -96,7 +100,7 @@ const About = () => {
           left: 0;
           right: 0;
           bottom: 0;
-          background: url('/src/assets/img/about-bg.png') no-repeat center;
+           background: var(--about-bg) no-repeat center;
           background-size: cover;
           opacity: 0.05;
           z-index: 0;

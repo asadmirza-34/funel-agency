@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/GlobalStyles.css';
+import heroBanner from '../assets/img/hero-banner.png'
+import bgShape from '../assets/img/bg.png'
 
 const Hero = () => {
   return (
@@ -25,7 +27,7 @@ const Hero = () => {
 
         <div className="hero-banner animate-slide-in-right">
           <img 
-            src="/src/assets/img/hero-banner.png" 
+            src={heroBanner}
             alt="Hero illustration" 
             className="hero-image"
           />
@@ -34,7 +36,7 @@ const Hero = () => {
 
       <div className="hero-shape">
         <img 
-          src="/src/assets/img/bg.png" 
+          src={heroBanner} 
           alt="Background shape" 
           className="shape-content"
         />

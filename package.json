@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://asadmirza-34.github.io/agency-react",
+  "homepage": "https://asadmirza-34.github.io/funel-agency",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
